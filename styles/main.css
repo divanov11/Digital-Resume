@@ -13,11 +13,11 @@
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
     
-    --mainTextColor:var(--mainTextColor-light);
-    --secondaryTextColor:var(--secondaryTextColor-light);
-    --mainLinkColor:var(--mainLinkColor-light);
-    --mainBorderColor:var(--mainBorderColor-light);
-    --mainBgColor:var(--mainBgColor-light);
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor:var(--mainBgColor-dark);
 
 }
 
