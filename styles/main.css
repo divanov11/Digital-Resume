@@ -3,7 +3,7 @@
 :root{
     --mainTextColor-light:#000;
     --secondaryTextColor-light:rgb(51 51 51);
-    --mainLinkColor-light:#1ebcd4;
+    --mainLinkColor-light:#0da2b8;
     --mainBorderColor-light:rgb(218, 218, 218);
     --mainBgColor-light:rgb(249, 250,251);
 
@@ -66,6 +66,10 @@ li{
     gap: 4em;
 }
 
+#bio, a{
+    font-weight: 300;
+}
+
 #user-name{
     font-size: 48px;
     line-height: 1em;
@@ -84,8 +88,22 @@ li{
 
 #socials--list{
     display: flex;
+    justify-content: space-evenly;
     column-gap: 1em;
     flex-wrap: wrap;
+}
+
+#socials--list a{
+    font-weight: 300;
+    color: var(--secondaryTextColor);
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+#socials--list a:hover{
+    font-weight: 100;
+    color: var(--mainLinkColor);
+    font-size: 0.9em;
 }
 
 #qualifications--list{
@@ -96,7 +114,7 @@ li{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .card--techstack{
@@ -107,13 +125,14 @@ li{
 }
 
 .card--project{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border-top: 1px solid var(--mainBorderColor);
 }
 
 .card--project a{
     color: var(--mainTextColor);
+
     transition: 0.3s;
 }
 
