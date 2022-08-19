@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
 
 :root{
-    --mainTextColor-light:#000;
-    --secondaryTextColor-light:rgb(51 51 51);
-    --mainLinkColor-light:#0da2b8;
-    --mainBorderColor-light:rgb(218, 218, 218);
-    --mainBgColor-light:rgb(249, 250,251);
-
     --mainTextColor-dark:#fff;
     --secondaryTextColor-dark:#adb0b1;
     --mainLinkColor-dark:rgb(30, 190,214);
@@ -151,6 +145,14 @@ li{
 .line-break{
     background-color: var(--mainBorderColor);
     height: 1px;
+}
+
+.themeBtn{
+    border: 1px solid var(--mainBorderColor);
+    background: transparent;
+    padding: 8px;
+    cursor: pointer;
+    color: var(--mainTextColor);
 }
 
 
