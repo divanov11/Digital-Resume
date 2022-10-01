@@ -50,7 +50,7 @@ li{
 }
 
 #container--main{
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1em;
 }
@@ -181,3 +181,40 @@ li{
         padding-left: 0;
     }
 }
+
+.social-icons .social-icon {
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: white;
+  
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  
+
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+  
+  
+}
+.social-icons .social-icon:hover {
+  background-color: #e9e9e9f4;
+}
+
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
