@@ -195,13 +195,17 @@ li{
   font-size: 1.5rem;
   margin-right: 1.5rem;
   
+  
+  
 
 }
+
 .social-icons .social-icon:last-child {
-  margin-right: 0;
-  
-  
-}
+    margin-right: 0;
+    
+    
+  }
+
 .social-icons .social-icon:hover {
   background-color: #e9e9e9f4;
 }
@@ -214,7 +218,7 @@ li{
   }
   .child {
     display: inline-block;
-    border: 1px solid red;
+    
     padding: 1rem 1rem;
     vertical-align: middle;
   }
