@@ -5,7 +5,7 @@
     --secondaryTextColor-light:rgb(51 51 51);
     --mainLinkColor-light:#0da2b8;
     --mainBorderColor-light:rgb(218, 218, 218);
-    --mainBgColor-light:rgb(249, 250,251);
+    --mainBgColor-light:rgb(255, 255, 255);
 
     --mainTextColor-dark:#fff;
     --secondaryTextColor-dark:#adb0b1;
@@ -13,11 +13,11 @@
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
     
-    --mainTextColor:var(--mainTextColor-dark);
-    --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainLinkColor:var(--mainLinkColor-dark);
-    --mainBorderColor:var(--mainBorderColor-dark);
-    --mainBgColor:var(--mainBgColor-dark);
+    --mainTextColor:var(--mainTextColor-light);
+    --secondaryTextColor:var(--secondaryTextColor-light);
+    --mainLinkColor:var(--mainLinkColor-light);
+    --mainBorderColor:var(--mainBorderColor-light);
+    --mainBgColor:var(--mainBgColor-light);
 
 }
 
@@ -50,7 +50,7 @@ li{
 }
 
 #container--main{
-    max-width: 700px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 1em;
 }
