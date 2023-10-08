@@ -38,6 +38,32 @@ p, span, li{
     color: var(--secondaryTextColor);
     font-size: 1em;
 }
+ #wrapper--hero {
+      display: flex;
+      align-items: center; 
+    }
+    
+    #wrapper--hero div {
+      margin-left: 20px;
+      text-align: center;  
+    }
+    
+    .btn--social {
+      padding: 12px 24px;
+      border-radius: 25px; 
+      background-color: #007bff;
+      color: #fff;
+      margin: 0 10px; 
+    }
+    
+    .btn--social:hover {
+      background-color: #0062cc;
+    }
+    
+    #socials--list {
+      display: flex;
+      justify-content: center;
+    }
 
 a{
     text-decoration: none;
