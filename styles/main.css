@@ -93,6 +93,18 @@ li{
     flex-wrap: wrap;
 }
 
+.btn--social {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: #0077B5; 
+  color: #fff;
+}
+
+.btn--social a {
+  color: #fff;
+  text-decoration: none;
+}
+
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
